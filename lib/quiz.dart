@@ -29,6 +29,8 @@ class _QuizState extends State<Quiz> {
             children: [
               Image.asset('assets/quiz-logo.png', width: 300, color: Colors.white),
               const SizedBox(height: 40),
+              Text('Flutter Quiz',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 20),),
+              const SizedBox(height: 40),
               ElevatedButton.icon(
                 onPressed: moveScreen,
                 style: ElevatedButton.styleFrom(
